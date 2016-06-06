@@ -82,11 +82,7 @@ public class MyBetterMap<K, V> implements Map<K, V> {
 
 	@Override
 	public Set<Map.Entry<K, V>> entrySet() {
-        Set<Map.Entry<K, V>> ret = new HashSet<>();
-        for (MyLinearMap<K, V> map : maps) {
-            ret.addAll(map.getEntries());
-        }
-        return ret;
+		throw new UnsupportedOperationException();
 	}
 
 	@Override

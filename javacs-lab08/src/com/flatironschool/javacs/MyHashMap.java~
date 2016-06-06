@@ -5,7 +5,6 @@ package com.flatironschool.javacs;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * Implementation of a HashMap using a collection of MyLinearMap and
